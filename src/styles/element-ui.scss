@@ -31,7 +31,7 @@
 .fixed-width {
   .el-button--mini {
     padding: 7px 10px;
-    min-width: 60px;
+    width: 60px;
   }
 }
 
@@ -81,4 +81,12 @@
 // to fix el-date-picker css style
 .el-range-separator {
   box-sizing: content-box;
+}
+
+.el-menu--collapse
+  > div
+  > .el-submenu
+  > .el-submenu__title
+  .el-submenu__icon-arrow {
+  display: none;
 }
